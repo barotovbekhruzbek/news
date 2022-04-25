@@ -64,6 +64,16 @@ h1{
  
   }
 }
+@media screen and (max-width: 800px) {
+
+.wrapper{
+  flex-direction: column;
+  width: 700px;
+  align-items: center;
+ 
+  }
+}
+
 
 
 </style>
