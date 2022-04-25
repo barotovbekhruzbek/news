@@ -63,7 +63,7 @@ export default {
 
   @media screen and (max-width: 480px) {
     .about{
-      width: 480px;
+      width: 440px;
     }
   h1{
     font-size: 30px;
