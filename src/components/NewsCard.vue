@@ -60,8 +60,8 @@ export default {
     @media screen and (max-width: 480px) {
 
         .card{
-            width: 400px;
-        height: 500px; 
+            width: 450px;
+            height: 500px; 
         }
 
 }

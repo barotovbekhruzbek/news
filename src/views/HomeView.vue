@@ -49,7 +49,7 @@ h1{
 
 .wrapper{
   flex-direction: column;
-  
+  width: 480px;
   align-items: center;
  
   }
