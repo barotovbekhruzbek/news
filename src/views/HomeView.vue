@@ -64,7 +64,7 @@ h1{
  
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width: 481px) {
 
 .wrapper{
   flex-direction: column;
