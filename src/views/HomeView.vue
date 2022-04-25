@@ -49,7 +49,11 @@ h1{
 
 .wrapper{
   flex-direction: column;
+  
+  align-items: center;
+ 
+  }
 }
 
-}
+
 </style>
