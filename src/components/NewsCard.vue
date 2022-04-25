@@ -56,4 +56,13 @@ export default {
         z-index: 2;
         padding: 20px;
     }
+
+    @media screen and (max-width: 480px) {
+
+        .card{
+            width: 400px;
+        height: 500px; 
+        }
+
+}
 </style>
