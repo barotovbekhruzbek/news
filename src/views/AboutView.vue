@@ -59,4 +59,17 @@ export default {
     color: aqua;
   }
   }
+
+
+  @media screen and (max-width: 480px) {
+    .about{
+      width: 450px;
+    }
+  h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
 </style>
