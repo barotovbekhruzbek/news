@@ -65,4 +65,12 @@ export default {
         }
 
 }
+    @media screen and (max-width: 400px) {
+
+        .card{
+            width: 380px;
+            height: 500px; 
+        }
+
+}
 </style>

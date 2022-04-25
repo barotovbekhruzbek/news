@@ -72,4 +72,16 @@ export default {
     font-size: 18px;
   }
 }
+
+  @media screen and (max-width: 400px) {
+    .about{
+      width: 400px;
+    }
+  h1{
+    font-size: 25px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
 </style>

@@ -55,5 +55,15 @@ h1{
   }
 }
 
+@media screen and (max-width: 400px) {
+
+.wrapper{
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+ 
+  }
+}
+
 
 </style>
