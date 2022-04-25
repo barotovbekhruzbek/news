@@ -1,5 +1,5 @@
 <template>
-    <div class="card" data-aos="fade-up">
+    <div class="card" data-aos="fade-up" data-aos-delay="500">
         <img :src="img" :alt="title">
         <h3 class="title" @click="$emit('action')">  {{ title }}  </h3>
     </div>
