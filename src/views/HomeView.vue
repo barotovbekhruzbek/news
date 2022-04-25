@@ -1,4 +1,16 @@
 <template>
+     <div id="preloader">
+      <div id="cube-loader">
+        <div class="caption">
+          <div class="cube-loader">
+            <h1 class="site">News Site Welcome</h1>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
   <div class="home">
     <h1>UzNewsHot.uz </h1>
     <div class="wrapper">
@@ -74,6 +86,57 @@ h1{
   }
 }
 
+  /*prelaoader*/
+#preloader{
+  align-items: center;
+  display: flex;
+  background: #2c3e50;
+  position: fixed;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
 
+html, body {
+  height: 100%;
+  
+}
+
+#cube-loader {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+#cube-loader .caption {
+  margin: 0 auto;
+}
+
+#cube-loader .caption .cube-loader h1 {
+  animation: aylan linear 3s infinite;
+  width: 500px;
+  height: 400px;
+}
+@keyframes aylan  {
+  from{
+    transform: rotateY(0);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+
+}
+
+.site{
+  color: #fff;
+  font-size: 50px;
+}
 
 </style>

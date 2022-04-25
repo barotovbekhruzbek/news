@@ -16,3 +16,10 @@ createApp(
 ).mount('#app')
 
 createApp(App).use(router).mount('#app')
+
+
+window.onload = function () {
+        let preloader = document.getElementById('preloader');
+        preloader.style.display = 'none'
+}
+
