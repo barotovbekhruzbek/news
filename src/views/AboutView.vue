@@ -3,7 +3,7 @@
      <img :src="post.img" :alt="post.title">
           <h1>{{ post.title }}</h1>
     <p>{{  post.desc }}</p>
-    <button @click="$router.push({ name: 'home' })">Home Page</button>
+    
   
   </div>
 </template>
